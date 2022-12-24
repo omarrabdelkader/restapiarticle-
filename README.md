@@ -8,7 +8,7 @@ I still recall the first time I have developed the first REACT front-end project
 
 ## Application Program Interface
 
-APIs are mechanisms that enable two software components to communicate with each other using a set of definitions and protocols.
+APIs are mechanisms that enable two software components to communicate with each other using a set of definitions and protocols. API stands for Application Programming Interface. In the context of APIs, the word Application refers to any software with a distinct function. Interface can be thought of as a contract of service between two applications. This contract defines how the two communicate with each other using requests and responses.
 (Amazon AWS)
 
 Just visualize that we are in a restaurant. The kitchen is what we call the server, and the waiter is the API. The waiter, or the API is responsible to get orders from the restaurant's customers. (Web Application's clients)  
@@ -30,6 +30,23 @@ Statelessness means that every HTTP request happens in complete isolation. Each 
 
 ------------
 
+What are the different types of APIs?
+APIs are classified both according to their architecture and scope of use. We have already explored the main types of API architectures so let’s take a look at the scope of use.
+
+Private APIs
+These are internal to an enterprise and only used for connecting systems and data within the business.
+
+Public APIs 
+These are open to the public and may be used by anyone. There may or not be some authorization and cost associated with these types of APIs.
+
+Partner APIs 
+These are only accessible by authorized external developers to aid business-to-business partnerships.
+
+Composite APIs 
+These combine two or more different APIs to address complex system requirements or behaviors. 
+
+------------
+
 
 ## HTTP Methods
 
@@ -46,7 +63,14 @@ HTTP Methods:
 
 Endpoints 
 
-In order to communicate with the server to reach a specific data, we use the HTTP methods. An endpoint kinda represents an HTTP methods in order to communicate with the server. An endpoint is like a URL, we use this URL in order to get some sort of a data.
+What is an API endpoint and why is it important?
+API endpoints are the final touchpoints in the API communication system. These include server URLs, services, and other specific digital locations from where information is sent and received between systems. API endpoints are critical to enterprises for two main reasons: 
+
+1. Security
+API endpoints make the system vulnerable to attack. API monitoring is crucial for preventing misuse.
+
+2. Performance
+API endpoints, especially high traffic ones, can cause bottlenecks and affect system performance.
 
 Example:
 

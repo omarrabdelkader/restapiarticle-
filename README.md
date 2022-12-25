@@ -61,9 +61,8 @@ HTTP Methods:
 
 -----------
 
-Endpoints 
+## Endpoints 
 
-What is an API endpoint and why is it important?
 API endpoints are the final touchpoints in the API communication system. These include server URLs, services, and other specific digital locations from where information is sent and received between systems. API endpoints are critical to enterprises for two main reasons: 
 
 1. Security
